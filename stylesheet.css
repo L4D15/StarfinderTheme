@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans:400,400i,700');
+
+html {
+    color: #c7c7c7;
+    background: #323232;
+    font-family: "Open Sans";
+    font-size: 0.9em;
+}
+
+body {
+}
+
+p {
+}
+
+h1 {
+    color: #dfeb29;
+    font-family: Cabin;
+    font-variant: small-caps;
+}
+
+h2 {
+    color: #35a3d9;
+    font-family: Cabin;
+    font-variant: small-caps;
+}
+
+h3 {
+    color: #35a3d9;
+    font-family: Cabin;
+    font-variant: small-caps;
+}
+
+.tc-site-title {
+}
+
+blockquote p {
+    color: #f8d589;
+}
+
+blockquote {
+    border: 1px solid #f8d589;
+    border-left: none;
+    border-right: none;
+}
+
+b, strong {
+    color: white;
+}
+
+blockquote strong {
+    color: #f8d589;
+}
+
+a.tc-tiddlylink-resolves {
+    color: #dfeb29;
+    text-decoration: none;
+}
+
+a.tc-tiddlylink-resolves:hover {
+    text-decoration: underline;
+}
+
+a.tc-tiddlylink-missing {
+    color: #f02311;
+    text-decoration: none;
+}
+
+a.tc-tiddlylink-missing:hover {
+    text-decoration: underline;
+}
+
+table {
+    margin: auto;
+    border: none;
+    padding: 2px 12px;
+    border-collapse: collapse;
+}
+
+table thead tr td, table th {
+    background: black;
+    font-variant: small-caps;
+}
+
+table tr {
+
+}
+
+table tr:nth-child(even) {
+    //background: rgba(85, 53, 163, 0.8);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+table tr td {
+    border: none;
+    padding: 4px 12px;
+}
+
+div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 12px black;
+}
+
+body.tc-body {
+    background: url(http://majorspoilers.com/wp-content/uploads/2017/06/StarfinderPoster.jpg) no-repeat top center;
+    background-size: 100% auto;
+}
