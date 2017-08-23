@@ -56,12 +56,17 @@ blockquote strong {
     color: #f8d589;
 }
 
-a, a.tc-tiddlylink-resolves {
+a,
+a.tc-tiddlylink-resolves,
+a.tc-tiddlylink-external,
+a.tc-tiddlylink-external:visited {
     color: #dfeb29;
     text-decoration: none;
 }
 
-a.tc-tiddlylink-resolves:hover {
+a:hover,
+a.tc-tiddlylink-resolves:hover,
+a.tc-tiddlylink-external:hover {
     text-decoration: underline;
 }
 
