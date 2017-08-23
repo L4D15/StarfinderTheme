@@ -108,7 +108,10 @@ body.tc-body {
     background: #323232 url(http://i.imgur.com/HAY4XIN.jpg) no-repeat top center;
 }
 
-section.tc-story-river {
+.tc-story-river {
+    margin: 0 auto;
+    width: 770px;
+    padding: 42px;
 }
 
 input {
