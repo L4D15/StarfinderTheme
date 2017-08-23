@@ -13,7 +13,7 @@ body {
 p {
 }
 
-h1 .tc-site-title {
+h1.tc-site-title {
     color: #35a3d9;
 }
 
@@ -122,6 +122,10 @@ body.tc-body {
     margin: 0 auto;
     width: 770px;
     padding: 42px;
+}
+
+.tc-siderbar-header {
+    text-shadow: none;
 }
 
 .tc-sidebar-scrollable {
