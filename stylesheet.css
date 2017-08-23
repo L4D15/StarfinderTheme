@@ -8,6 +8,8 @@ html {
 }
 
 body {
+    background: url(http://majorspoilers.com/wp-content/uploads/2017/06/StarfinderPoster.jpg) no-repeat top center;
+    background-size: 100% auto;
 }
 
 p {
@@ -96,12 +98,33 @@ table tr td {
     padding: 4px 12px;
 }
 
-div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {
+div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists,
+section.tc-story-river {
     background: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0px 12px black;
 }
 
 body.tc-body {
-    background: url(http://majorspoilers.com/wp-content/uploads/2017/06/StarfinderPoster.jpg) no-repeat top center;
-    background-size: 100% auto;
+
 }
+
+section.tc-story-river {
+}
+
+input {
+    background: #323232;
+    border: 2px solid #646464;
+    color: #c7c7c7;
+    padding: 4px 4px 4px 4px;
+    margin: 4px 4px 4px 4px;
+}
+
+.tc-edit-tags {
+    border: none;
+}
+
+button {
+    border: 2px solid #646464;
+    color: #c7c7c7;
+}
+
