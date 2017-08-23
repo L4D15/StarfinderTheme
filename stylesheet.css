@@ -13,6 +13,10 @@ body {
 p {
 }
 
+h1 .tc-site-title {
+    color: #35a3d9;
+}
+
 h1 {
     color: #dfeb29;
     font-family: Cabin;
@@ -125,7 +129,8 @@ body.tc-body {
 }
 
 .tc-tiddler-frame input.tc-edit-texteditor,
-.tc-tiddler-frame textarea.tc-edit-texteditor {
+.tc-tiddler-frame textarea.tc-edit-texteditor,
+input[type=text] {
     background: #323232;
     border: 2px solid #646464;
     color: #c7c7c7;
