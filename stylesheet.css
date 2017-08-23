@@ -56,7 +56,7 @@ blockquote strong {
     color: #f8d589;
 }
 
-a.tc-tiddlylink-resolves {
+a, a.tc-tiddlylink-resolves {
     color: #dfeb29;
     text-decoration: none;
 }
