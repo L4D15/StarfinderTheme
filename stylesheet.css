@@ -98,14 +98,13 @@ table tr td {
     padding: 4px 12px;
 }
 
-div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists,
-section.tc-story-river {
+div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {
     background: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0px 12px black;
 }
 
 body.tc-body {
-
+    color: #c7c7c7;
 }
 
 section.tc-story-river {
