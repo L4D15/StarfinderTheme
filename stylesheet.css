@@ -96,7 +96,8 @@ table tr td {
     padding: 4px 12px;
 }
 
-div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {
+div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists,
+div.tc-tiddler-edit-frame {
     background: rgba(32, 32, 32, 0.8);
     box-shadow: 0px 0px 12px black;
     border-radius: 4px;
@@ -138,5 +139,7 @@ input {
 button {
     border: 2px solid #646464;
     color: #c7c7c7;
+    background: #323232;
+    border-radius: 4px;
 }
 
