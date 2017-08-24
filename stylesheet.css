@@ -117,6 +117,7 @@ body.tc-body {
     color: #c7c7c7;
     background: #323232 url(https://images4.alphacoders.com/689/thumb-1920-689588.jpg) no-repeat top center;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .tc-story-river {
