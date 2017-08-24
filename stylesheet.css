@@ -15,6 +15,7 @@ div.tc-page-container-wrapper {
     background: #323232 url(https://images4.alphacoders.com/689/thumb-1920-689588.jpg) no-repeat top center fixed;
     background-size: cover;
     height: 100%;
+    min-height: 100vh;
 }
 
 p {
@@ -129,6 +130,7 @@ div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-missing {
 
 body.tc-body {
     height: 100%;
+    min-height: 100vh;
 }
 
 .tc-story-river {
