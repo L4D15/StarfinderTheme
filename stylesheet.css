@@ -14,6 +14,7 @@ div.tc-page-container-wrapper {
     color: #c7c7c7;
     background: #323232 url(https://images4.alphacoders.com/689/thumb-1920-689588.jpg) no-repeat top center fixed;
     background-size: cover;
+    height: 100%;
 }
 
 p {
@@ -127,6 +128,7 @@ div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-missing {
 }
 
 body.tc-body {
+    height: 100%;
 }
 
 .tc-story-river {
