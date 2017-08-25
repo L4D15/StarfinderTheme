@@ -126,7 +126,7 @@ div.tc-tiddler-edit-frame {
     overflow: auto;
 }
 
-.tc-tiddler-frame input.tc-edit-texteditor {
+textarea.tc-edit-texteditor {
     font-family: "Source Code Pro";
 }
 
