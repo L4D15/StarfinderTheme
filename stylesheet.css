@@ -89,11 +89,9 @@ a.tc-tiddlylink-missing:hover {
 
 table {
     margin: auto;
-    margin-left: 12px;
     border: none;
     padding: 2px 12px;
     border-collapse: collapse;
-    float: right;
 }
 
 table thead tr td, table th {
@@ -196,5 +194,17 @@ code {
     background: rgba(255,255,255,0.2);
     border: 1px solid #646464;
     color: #fbb829;
+}
+
+.float-left {
+    float: left;
+    margin-right: 12px;
+    maring: auto;
+}
+
+.float-right {
+    float: right;
+    margin-left: 12px;
+    maring: auto;
 }
 
