@@ -89,6 +89,7 @@ a.tc-tiddlylink-missing:hover {
 
 table {
     margin: auto;
+    maring-left: 12px;
     border: none;
     padding: 2px 12px;
     border-collapse: collapse;
@@ -175,5 +176,21 @@ button {
     color: #c7c7c7;
     background: #323232;
     border-radius: 4px;
+}
+
+pre {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid #646464;
+    color: #fbb829;
+}
+
+pre code {
+    background: none;
+}
+
+code {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid #646464;
+    color: #fbb829;
 }
 
