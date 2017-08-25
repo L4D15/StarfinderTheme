@@ -95,8 +95,10 @@ table {
 }
 
 table thead tr td, table th {
-    background: black;
+    background: none;
     font-variant: small-caps;
+    font-weight: bold;
+    border: none;
 }
 
 table tr {
